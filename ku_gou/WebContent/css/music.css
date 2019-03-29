@@ -1,0 +1,298 @@
+.container{
+	height: 450px;
+}
+.header{
+	height: 78px;
+	margin: 0px 175px;
+	width: 1010px;
+}
+.logo{
+	width: 190px;
+	margin-top: 20px;
+}
+.search{
+	float: left;
+	margin-top: 20px;
+	margin-left: 3px;
+	width: 298px;
+	border: 1px solid;
+}
+.search_input{
+	margin-left: 15px;
+	height: 32px;
+	width: 252px;
+	border: hidden;
+	outline: none;
+}
+.shimg{
+	width: 31px;
+	height: 34px;
+	background: url(../img/search.png) -33px -46px no-repeat;
+}
+.topNav_fr{
+	margin-left: 60px;
+}
+.topNav_fr ul{
+	width: 278px;
+	height: 19px;
+	float: left;
+	border-right: 1px solid gainsboro;
+	margin-top: 31px;
+	margin-left: 30px;
+	color: black;
+}
+.topNav_fr li{
+	float: left;
+	margin-left: 30px;
+	font-size: 13px;
+}
+.ul a{
+	color: #777;
+	font-weight: 500;
+}
+.ul>li>a:hover{
+	color: #009BF5;
+}
+.login_area{
+	margin-left: 18px;
+	margin-top: 4px;
+}
+.login_area a{
+	margin-top: 20px;
+	float: left;
+	margin-left: 10px;
+	border: 1px solid gainsboro;
+	height: 24px;
+	width: 39px;
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.login_btn{
+	
+	background-color: cornflowerblue;
+	color: #fff;
+	
+}
+.regin_btn{
+	color: black;
+}
+/*²Ëµ¥µ¼º½À¸*/
+.navWrap{
+	height: 55px;
+	width: 100%px;
+	background-color: #2c323b;
+}
+.nav{
+	width: 1000px;
+	margin:auto;
+}
+.homeNav{
+	width: 437px;
+	height: 55px;
+	background-color: #2c323b;
+	text-align: center;
+	line-height: 55px;
+}
+.homeNav>li{
+	float: left;
+	transition: background-color;
+}
+.homeNav>li:hover{
+	background-color: #0c8ed9;
+}
+.homeNav li:first-child{
+	width: 92px;
+	background-color: #0c8ed9;
+}
+.homeNav li:nth-child(2){
+	width: 92px;
+}
+.homeNav li:nth-child(3){
+	width: 140px;
+}
+.homeNav li:nth-child(4){
+	width: 113px;
+	height:55px;
+}
+.bgI{
+	
+	height: 10px;
+	width: 20px;
+	background: url(../img/sprite.png) 0px -70px no-repeat;
+	top: 23px;
+	right: 16px;
+	position: relative;
+	transition: transform;
+}
+.homeNav a{
+	color: #fff;
+	font-weight: lighter;
+}
+.more>a{
+	position: relative;
+	left: 5px;
+}
+.more:hover .bgI{
+	transform: rotate(180deg);
+}
+.more:hover .secondMenu{
+	display:block;
+}
+.secondMenu{
+	text-align: center;
+	display: none;
+}
+.navWrap .secondMenu>li{
+	width:113px;
+	line-height: 36px;
+	background-color: #2c323b;
+}
+.secondMenu>li:hover{
+	background-color: black;
+}
+.secondMenu>li>a{
+	color: #fff;
+}
+.subNav{
+	width: 370px;
+	margin-top: 16px;
+	height: 35px;
+	text-align: center;
+}
+.subNav>li{
+	float: left;
+	color: lavender;
+	margin-left: 30px;
+}
+.subNav li:first-child{
+	width: 72px;
+	height: 35px;
+	
+}
+.subNav li:nth-child(2){
+	width: 72.44px;
+	height: 35px;
+}
+.subNav li:nth-child(3){
+	width: 59px;
+	height: 35px;
+}
+.subNav li:nth-child(4){
+	width: 46px;
+	height: 35px;
+}
+.subNav>li>a{
+	color: #fff;
+	font-size: 13px;
+	font-weight: 100;
+}
+.subNav>li:hover a{
+	color: #0c8ed9;
+}
+/*´¥Åö±ä»»±³¾°Í¼Æ¬Î»ÖÃ*/
+.subNav>li:hover .menuimg{
+	background-position: 0px -100px;
+}
+.subNav>li:hover .menuimg-1{
+	background-position: 0px -135px;
+}
+.subNav>li:hover .menuimg-2{
+	background-position: 0px -171px;
+}
+.subNav>li:hover .menuimg-3{
+	background-position: 0px -245px;
+}
+.menuimg{
+	width: 20px;
+	height: 20px;
+	background: url(../img/sprite.png) 0px -118px no-repeat;
+}
+.menuimg-1{
+	width: 20px;
+	height: 20px;
+	background: url(../img/sprite.png) 0px -153px no-repeat;
+}
+.menuimg-2{
+	width: 20px;
+	height: 20px;
+	background: url(../img/sprite.png) 0px -188px no-repeat;
+}
+.menuimg-3{
+	width: 20px;
+	height: 20px;
+	background: url(../img/sprite.png) 0px -280px no-repeat;
+}
+.content{
+	padding-top: 20px;
+	position: relative;
+    width: 100%;
+    height: 100%;
+    background: grey;
+}
+.singerContent{
+	width: 840px;
+	margin: auto;
+	height: 430px;
+	color: #fff;
+	font-weight: 300;
+}
+.album{
+	width: 262px;
+	height: 447px;
+}
+.icon{
+	margin-top: 40px;
+	height: 50px;
+}
+.icon1{
+	
+}
+.icon1>input{
+	width: 200px;
+	height: 60px;
+	background: grey;
+	border:1px solid white;
+	border-radius: 40%;
+	font-size: 20px;
+	color: white;
+	outline: none;
+}
+.icon1>input:hover{
+	cursor: pointer;
+	color: lightblue;
+}
+.icon>div{
+	text-align:center;
+}
+.songContent{
+	margin-left: 100px;
+	width: 460px;
+}
+.songName{
+	height: 36px;
+}
+.songName>span{
+	font-size: 22px;
+	font-weight: 600;
+}
+.songDetail{
+	height: 33px;
+}
+.albumName{
+	
+}
+.singerName{
+	margin-left: 100px;
+}
+.songWordContent{
+	margin-top: 17px;
+	font-size: 15px;
+}
+.blurBgMask{
+	background-color: rgba(0,0,0,.35);
+}
+.audio{
+
+}

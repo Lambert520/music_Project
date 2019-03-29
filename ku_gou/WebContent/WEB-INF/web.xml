@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>music_Project</display-name>
+  <welcome-file-list>
+    <welcome-file>main.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- 初始化歌单数据 -->
+ <servlet>
+  	<servlet-name>main</servlet-name>
+  	<servlet-class>com.igeek.servlet.InitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>main</servlet-name>
+  	<url-pattern>/main</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 查询歌单 -->
+  <servlet>
+  	<servlet-name>searchAllbum</servlet-name>
+  	<servlet-class>com.igeek.servlet.SearchAllbumServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>searchAllbum</servlet-name>
+  	<url-pattern>/searchAllbum</url-pattern>
+  </servlet-mapping>
+  
+    <!-- 播放歌曲 -->
+  <servlet>
+  	<servlet-name>playMusic</servlet-name>
+  	<servlet-class>com.igeek.servlet.PlayMusicServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>playMusic</servlet-name>
+  	<url-pattern>/play</url-pattern>
+  </servlet-mapping>
+</web-app>
